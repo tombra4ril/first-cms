@@ -1,0 +1,21 @@
+#This is my robots file
+User-agents: *
+
+#This are the files and directories not to be indexed by search engines
+Disallow: content.php
+Disallow: deletepage.php
+Disallow: deletesubject.php
+Disallow: editpage.php
+Disallow: editsubject.php
+Disallow: login.php
+Disallow: logout.php
+Disallow: newpage.php
+Disallow: newsubject.php
+Disallow: newuser.php
+Disallow: processpage.php
+Disallow: staff.php
+
+Disallow: formprocessing/
+Disallow: images/
+Disallow: includes/
+
